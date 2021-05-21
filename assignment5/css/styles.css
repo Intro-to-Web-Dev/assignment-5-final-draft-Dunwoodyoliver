@@ -1,0 +1,78 @@
+/*
+1. I picked the color because they are military colors.
+2. we Used #03503 for the green and #111 for the black also used #2b2626 for the grey.
+3.In the header we use the green and had the words in white. In a Article I used a grey background to give it some depth.
+
+1.I used the the defult font for all of the page as it is simple and nothing to fancy.
+2.In the header we use just stander size in the paragraph tages I use 20 pt for size and the weight is bold.
+3.I did not use line hight in my page, I did not us word spacing and just use the stander spacing and letter spacing is also stander.
+
+
+*/
+header{
+    background-color: #035f03; 
+    display: flex;
+}
+#nav {
+    height: 50px;
+    width: 100%;
+    list-style-type: none;
+    margin-top: auto;
+    margin-bottom: 0;
+    padding: 0;
+    vertical-align: bottom;
+  }
+  
+  .navList {
+    float: left;
+    width: 19%;
+  }
+  
+  li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: auto;
+    font-size: .7em;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  #navLogo {
+    max-width: 75%;
+    height: auto;
+    float: left;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .articleContainer{
+    width: 29%;
+    height: auto;
+    float: left;
+    border: 2px solid #000000;
+    background-color: #2b2626;
+    border-radius: 2em;
+    padding: 10px;
+    margin: 10px;
+  }
+    .articleContainer p{
+      
+      font-weight: bold;
+      font-size: 1em;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+      height: auto;
+     }
+    .articleContainer img{
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
